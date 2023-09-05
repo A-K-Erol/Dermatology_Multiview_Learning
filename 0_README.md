@@ -10,7 +10,7 @@ I obtained the following testing accuracy:
   3. Multi-view K Nearest Neighbor: 74% accuracy
 
 Details:
-  1. SVM: I used the sklearn library to implement the algorithm. Testing is done with both a one vs one and one vs rest approach for
+  1. SVM: I used the sklearn library to implement the algorithm. Tested with both a one-vs-one and one-vs-rest approach for
      multiple classification, with nearly identical results.
   2. Neural network: I used the pytorch library and pandas to process the data; testing was performed with several neural networks, with the best results
       for simple and small linear network models. Epoch count of 200 and learning rate of .001 were used.
