@@ -69,7 +69,6 @@ def test_loop(dataloader, model, loss_fn):
 
 
 def neural_net():
-    print("hello")
     device = (
         "cuda"
         if torch.cuda.is_available()
