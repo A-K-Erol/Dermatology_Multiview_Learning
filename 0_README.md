@@ -13,7 +13,7 @@ Details:
   1. SVM: I used the sklearn library to implement the algorithm. Testing is done with both a one vs one and one vs rest approach for
      multiple classification, with nearly identical results.
   2. Neural network: I used the pytorch library and pandas to process the data; testing was performed with several neural networks, with the best results
-     being for simple and small linear networks. Epoch count of 200 and learning rate of .001 were used.
+      for simple and small linear network models. Epoch count of 200 and learning rate of .001 were used.
   3. KNN: I coded this from scratch with usage solely of libraries for initial data processing. The results were worse than those obtained in research
     studies using algorithms with comparable approaches, such as Kiyak (2021). The voting mechanism is particularly poor, and better results could likely
     be obtained if all features were considered at once, since having only two views reduces solely to the vote of the first_view in all cases.
