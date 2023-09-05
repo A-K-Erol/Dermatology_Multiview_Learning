@@ -16,5 +16,5 @@ Details:
       for simple and small linear network models. Epoch count of 200 and learning rate of .001 were used.
   3. KNN: I coded this from scratch with usage solely of libraries for initial data processing. The results were worse than those obtained in research
     studies using algorithms with comparable approaches, such as Kiyak (2021). The voting mechanism is particularly poor, and better results could likely
-    be obtained if all features were considered at once, since having only two views reduces solely to the vote of the first_view in all cases.
+    be obtained if all features were considered at once, since majority voting biases the first view if the classifiers disagree.
 
