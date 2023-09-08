@@ -11,7 +11,7 @@ with open("dermTrain.csv") as trainFile:
         x_vector = line.split(",")[:-1]
         for i in range(len(x_vector)):
             x_vector[i] = int(x_vector[i])
-        y = int(line.split(",")[-1])
+        y = int(line.split(",")[-2])
 
         X_train.append(x_vector)
         Y_train.append(y)
@@ -21,7 +21,7 @@ with open("dermTest.csv") as testFile:
         x_vector = line.split(",")[:-1]
         for i in range(len(x_vector)):
             x_vector[i] = int(x_vector[i])
-        y = int(line.split(",")[-1])
+        y = int(line.split(",")[-2])
 
         X_test.append(x_vector)
         Y_test.append(y)
