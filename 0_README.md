@@ -5,7 +5,7 @@ available at https://archive.ics.uci.edu/dataset/33/dermatology. This is one of 
 Data entries with missing rows were pruned from the dataset, because they accounted for <1.5% of entries.
 
 I obtained the following testing accuracy:
-  1. Support vector machine: 98.5% accuracy
+  1. Support vector machine: 98.6% accuracy
   2. Neural Network: 93.8% accuracy
   3. Multi-view K Nearest Neighbor: 94.3% accuracy
 
