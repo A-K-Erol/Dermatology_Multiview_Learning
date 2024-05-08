@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://github.com/A-K-Erol/Dermatology_Multiview_Learning/assets/43559753/d727e7c8-e985-4b77-bf63-56a0ad490194" />
+</p>
+
 # Dermatology_Multiview_Learning
 
 This project explores three AI / Machine Learning techniques on a multiview dermatology dataset from the University of California, Irvine, 
